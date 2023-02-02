@@ -1,0 +1,55 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+img {
+  justify-items: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  margin: 30px;
+  border: 6px outset gray;
+}
+
+p {
+  width: 700px;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: rgb(0, 0, 0);
+  border: 8px inset gray;
+  margin: 40px;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 700;
+  word-spacing: 4px;
+  line-height: 40px;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  border: 6px outset gray;
+}
